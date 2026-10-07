@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+**/node_modules/
+.next/
+.runtime/
+*.log
+*.sock
+__pycache__/
+*.pyc
+.venv/
+coverage/
+memory/test_credentials.md

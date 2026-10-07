@@ -1,0 +1,10 @@
+import '@fontsource-variable/plus-jakarta-sans';
+import '@fontsource-variable/playfair-display';
+import '@fontsource/dm-mono/400.css';
+import './globals.css';
+import { AuthProvider } from '@/context/AuthContext';
+import { WorkspaceShell } from '@/components/WorkspaceShell';
+import { Toaster } from 'sonner';
+export const metadata = { title: { default: 'Aditya Prints | Factory workspace', template: '%s | Aditya Prints' }, description: 'Orders, production, stock and clear bill accounting for Aditya Prints.', robots: { index: false, follow: false } };
+const App = ({ children }) => <html lang="en"><body className="font-sans antialiased [&_h1]:font-serif [&_h2]:font-serif"><AuthProvider><WorkspaceShell>{children}</WorkspaceShell><Toaster position="bottom-right" richColors /></AuthProvider></body></html>;
+export default App;
