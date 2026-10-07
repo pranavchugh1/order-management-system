@@ -5,6 +5,7 @@
 **/.env.*
 **/node_modules/
 .next/
+.next-verify/
 .runtime/
 *.log
 *.sock
@@ -12,4 +13,14 @@ __pycache__/
 *.pyc
 .venv/
 coverage/
+.emergent/
+.qodo/
+tmp*/
+test_reports/
+memory/
+*.zip
+auth_testing.md
+backend_test.py
+backend_test_comprehensive.py
+test_result.md
 memory/test_credentials.md
